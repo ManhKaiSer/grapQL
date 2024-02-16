@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold 'Server=localhost;Port=3380;Database=asset;Uid=root;Pwd=123456;Allow Zero Datetime=true;convert zero datetime=True;old guids=True;' Pomelo.EntityFrameworkCore.MySql -c AssetDbContext -o DatabaseAsset -f -v --no-build --no-onconfiguring --no-pluralize
